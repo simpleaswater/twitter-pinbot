@@ -1,0 +1,11 @@
+{
+  "twitter_name": "bot twitter handle",
+  "twitter_id": "bot twitter handle",
+  "consumer_key": "API key",
+  "consumer_secret": "API secret key",
+  "access_key": "Access token",
+  "access_secret": "Access token secret",
+  "cluster_peer_addr": "cluster peer multiaddress",
+  "cluster_username": "",
+  "cluster_password": ""
+}
