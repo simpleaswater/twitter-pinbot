@@ -48,6 +48,14 @@ var (
 	HelpAction  Action = "!help"
 )
 
+func (a Action) Valid() bool {
+	switch a {
+	case PinAction, UnpinAction, AddAction, HelpAction:
+		return true
+	}
+	return false
+}
+
 func (a Action) String() string {
 	return string(a)
 }
@@ -292,7 +300,7 @@ func (b *Bot) processTweet(tweet *twitter.Tweet, srcTweet *twitter.Tweet) {
 	log.Printf("Parsed: %s, %s, %s\n", action, arguments, urls)
 
 	_, ok := b.followedBy.Load(srcTweet.User.ID)
-	if !ok {
+	if !ok && action.Valid() {
 		log.Println("Error: NoFollow")
 		b.tweet("Follow me, and try again.", tweet, srcTweet, false)
 		return
