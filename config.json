@@ -1,6 +1,6 @@
 {
-  "twitter_name": "bot twitter handle",
-  "twitter_id": "bot twitter handle",
+  "twitter_name": "@botHandle",
+  "twitter_id": "@botHandle",
   "consumer_key": "API key",
   "consumer_secret": "API secret key",
   "access_key": "Access token",
