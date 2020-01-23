@@ -7,4 +7,4 @@
 
 ### How to run the twitter bot?
 
-You should checkout our full article on [Building a Twitter PinBot using IPFS Cluster](https://simpleaswater.com/ipfs-cluster-twitter-pinbot) to setup the IPFS Cluster Infrastructure, and linking the Twitter Bot to the IPFS Cluster Network.
+You should checkout our full article on [Building a Twitter PinBot using IPFS Cluster](https://simpleaswater.com/ipfs-cluster-twitter-pinbot?ref=github_readme) to setup the IPFS Cluster Infrastructure, and linking the Twitter Bot to the IPFS Cluster Network.
